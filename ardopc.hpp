@@ -7,9 +7,11 @@ class ardopc
 {
 public:
   ardopc();
+  bool CheckValidCallsignSyntax(char *callsign);
+  bool CheckGSSyntax(char *gridsquare);
 private:
-  std::array<char, 10> callsign();
-  std::array<char, 9> gridsquare();
+//  std::array<char, 10> callsign();
+//  std::array<char, 9> gridsquare();
 };
 
 #endif // ARDOPC_HPP
