@@ -16,4 +16,5 @@ INCLUDEPATH += .
 # Input
 SOURCES += main.cpp
 
-HEADERS +=
+HEADERS += \
+    main.hpp
